@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3B7F9E8B1AB6F8CA000825D1 /* NSURL+ParameterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F9E8A1AB6F8CA000825D1 /* NSURL+ParameterTests.m */; };
 		3B7F9E8C1AB6FCB1000825D1 /* NSURL+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F9E7A1AB6EFF6000825D1 /* NSURL+Parameter.m */; };
-		3B7F9E8E1AB7DEBF000825D1 /* NSURL+Parameter.podspec.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B7F9E8D1AB7DEBF000825D1 /* NSURL+Parameter.podspec.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +16,6 @@
 		3B7F9E7A1AB6EFF6000825D1 /* NSURL+Parameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Parameter.m"; sourceTree = "<group>"; };
 		3B7F9E801AB6F840000825D1 /* NSURL+Parameter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURL+Parameter.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7F9E8A1AB6F8CA000825D1 /* NSURL+ParameterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ParameterTests.m"; sourceTree = "<group>"; };
-		3B7F9E8D1AB7DEBF000825D1 /* NSURL+Parameter.podspec.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "NSURL+Parameter.podspec.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +32,6 @@
 		3B7F9E6F1AB6EFA5000825D1 = {
 			isa = PBXGroup;
 			children = (
-				3B7F9E8D1AB7DEBF000825D1 /* NSURL+Parameter.podspec.strings */,
 				3B7F9E771AB6EFD2000825D1 /* Tests */,
 				3B7F9E761AB6EFBE000825D1 /* NSURL+Parameter */,
 				3B7F9E811AB6F840000825D1 /* Products */,
@@ -121,7 +118,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7F9E8E1AB7DEBF000825D1 /* NSURL+Parameter.podspec.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +255,7 @@
 				3B7F9E891AB6F840000825D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
